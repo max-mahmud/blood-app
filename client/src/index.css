@@ -7,7 +7,10 @@
 /* ===========
 ==== FORM
 =========== */
-
+.header-logo{
+  color: #54c27e;
+  text-decoration: none;
+}
 .form-banner img {
   height: 100%;
   width: 100%;
@@ -56,11 +59,16 @@
 =================== */
 
 .navbar {
-  background-color: rgb(31, 27, 27) !important;
+  background-color: #34495e !important;
   color: white !important;
 }
 .nav-link,
 .navbar-brand {
-  background-color: rgb(32, 29, 29) !important;
+  background-color: #34495e !important;
   color: white !important;
+}
+
+.analytics{
+  text-decoration: none;
+  color: #fff;
 }
