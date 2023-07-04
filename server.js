@@ -14,7 +14,7 @@ connectDB();
 app.use(express.json());
 app.use(
   cors({
-    origin: "",
+    origin: "https://blood-app-63q2.vercel.app",
     methods: ["GET", " POST", " PUT", " DELETE"],
     credentials: true,
   })
