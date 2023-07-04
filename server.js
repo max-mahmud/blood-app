@@ -12,13 +12,7 @@ connectDB();
 
 //middlewares
 app.use(express.json());
-app.use(
-  cors({
-    origin: "https://blood-app-63q2.vercel.app",
-    methods: ["GET", " POST", " PUT", " DELETE"],
-    credentials: true,
-  })
-);
+app.use(cors());
 app.use(morgan("dev"));
 
 //routes
@@ -37,3 +31,4 @@ app.listen(PORT, () => {
       .bgBlue.white
   );
 });
+
